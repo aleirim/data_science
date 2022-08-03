@@ -1,0 +1,8 @@
+demo:
+simulating a streaming traffic generator and a streaming data consumer
+
+- kafka server
+- kafka python dirver
+- docker
+- psycopg2
+- postgres db
