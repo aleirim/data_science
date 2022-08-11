@@ -1,0 +1,12 @@
+## Project
+### Introduction
+In this project, you will work on an open and real dataset, Real Estate Rent Listings in Mexico in two years, 2017 and 2018. This dataset includes rent data for properties in Mexico in 2017 and 2018. Properati is a competitive marketplace for Latin American real estate that strives to assist consumers in purchasing and renting homes, while simultaneously providing location-specific property databases for the public.
+Properati currently lists over 1.5 million properties through hubs in Argentina, Mexico, and Brazil. Listings include property name, type, price, listing date, surface area, coordinates, description, and photos. Most of these premises are located in urban settings, with few straying into suburban or rural areas. Innovators at Properati understand that a house is usually the most important and costly purchase an individual makes in his or her lifetime. Properati has developed tools, such as Preciómetro, to help people make well-educated property investments.
+
+This dataset is hosted by [Google Cloud](https://console.cloud.google.com/marketplace/product/properati/property-data-mx?project=operating-land-280322) and publicly available for anyone to use.
+
+### Dataset
+Link to download this dataset: [Download](https://drive.google.com/file/d/1OlVrvHGMjAd3YU1vlsLDZIs7maAebIE_/view)
+
+### Requirements
+Work as a data analyst/data scientist at Properati. Required to explore, analyze, draw useful conclusions/suggestions with a comprehensive report for the company’s customers about renting real estates in Mexico.
