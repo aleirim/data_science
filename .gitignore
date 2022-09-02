@@ -162,3 +162,4 @@ project_mercari_price_suggestion/data/product_listings_mercari.tsv
 project_mercari_price_suggestion/data/mercari_cleaned_brand_imputed.csv
 project_mercari_price_suggestion/data/mercari_eda_cleaned.csv
 project_mercari_price_suggestion/deployment/__pycache__/
+project_mercari_price_suggestion/deployment/__pycache__/preprocessing.cpython-39.pyc
