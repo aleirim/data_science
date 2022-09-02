@@ -2,6 +2,7 @@ Flask==2.2.2
 pandas==1.4.2
 numpy==1.23.2
 nltk==3.7
-sklearn==1.1.2
+scikit-learn==1.1.1
 scipy==1.9.1
 lightgbm==3.3.2
+gunicorn
