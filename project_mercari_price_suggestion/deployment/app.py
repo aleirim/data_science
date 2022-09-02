@@ -17,13 +17,10 @@ cols = ['name', 'item_condition_id', 'category_name', 'brand_name', 'shipping', 
 def main():
     return render_template("main.html")
 
-@app.route('/new2')
-def index2():
-    return render_template("index2.html")
-
-@app.route('/predict',methods=['POST'])
+@app.route('/predict', methods=['POST'])
 def predict():
     form_data = [x for x in request.form.values()]
+    print("Request Data:", request.form.values)
     data_array = np.array(form_data)
     data_unseen = pd.DataFrame([data_array], columns = cols)
     # preprocessing data for the model
@@ -32,7 +29,7 @@ def predict():
     print("---------- Predicting price ----------")
     prediction = model.predict(data_model)
     prediction = round(preprocessing.get_pred_price(prediction[0]), 2)
-    return render_template('main.html', pred='Suggested Price {}'.format(prediction))
+    return render_template('main.html', pred='{}'.format(prediction))
 
 # @app.route('/predict_api',methods=['POST'])
 # def predict_api():

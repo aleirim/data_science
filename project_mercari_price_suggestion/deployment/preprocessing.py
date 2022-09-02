@@ -23,10 +23,10 @@ shipping_map = {'Seller': 1, 'Buyer':0}
 def preprocess_data(datas_as_df):
     print("--------- Preprocessing Data ----------")
     # map item condition
-    datas_as_df['item_condition_id'] = datas_as_df.item_condition_id.map(condition_map)
+    # datas_as_df['item_condition_id'] = datas_as_df.item_condition_id.map(condition_map)
     print("Item Condition ID:", datas_as_df['item_condition_id'].values[0])
     # map shipping
-    datas_as_df['shipping'] = datas_as_df.shipping.map(shipping_map)
+    # datas_as_df['shipping'] = datas_as_df.shipping.map(shipping_map)
     print("Shipping ID:", datas_as_df['shipping'].values[0])
     # clean name
     datas_as_df['name'] = datas_as_df.name.map(pre_process_name)
